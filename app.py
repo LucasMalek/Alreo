@@ -139,8 +139,6 @@ def reform_list(string, requisition):
 
     return relation_label, relations_tuples
 
-
-
 def reform_consult(string):
     pattern_labels = re.compile(r'\((.*?)\)')
     match_labels = re.search(pattern_labels, string)
@@ -429,7 +427,6 @@ def CreateConsultfromOperators(operators, assigments = None):
                 operator_value, atributes_values, relations_values, operator_caractere)
        
     return query_sufix
-
 
 @app.route('/consult', methods=['POST'])
 async def consult():
