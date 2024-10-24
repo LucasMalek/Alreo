@@ -11,8 +11,8 @@ Atualmente, existem ferramentas que interpretam a álgebra relacional, auxiliam 
 ## Instrução de instalação
 
 ### Pré requisitos
- Python 3
- Microsoft C++ 14.0 ou maior
+ Python 3.11.4
 
 ### Etapas
 
+Intalando o pacote radb
