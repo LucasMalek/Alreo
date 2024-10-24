@@ -12,6 +12,7 @@ Atualmente, existem ferramentas que interpretam a álgebra relacional, auxiliam 
 
 ### Pré requisitos
  Python 3
+ Microsoft C++ 14.0 ou maior
 
 ### Etapas
 

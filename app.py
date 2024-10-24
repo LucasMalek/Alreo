@@ -41,8 +41,6 @@ app.config['SESSION_TYPE'] = 'filesystem'
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=120)
 Session(app)
 
-
-
 count = 0
 instances: Dict[int, ralib.RA] = {}
 requisition_queue = queue.Queue()
