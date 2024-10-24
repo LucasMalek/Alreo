@@ -524,9 +524,9 @@ def loadfile(file=None):
         logout()
         return loadfile(request.files['file'])
               
-@app.route('/prototipo', methods=['GET'])
+@app.route('/', methods=['GET'])
 def prototipo():
-    return render_template('prototipohome.html')
+    return render_template('home.html')
 
 @app.route('/colectinfofromtable', methods=['POST'])
 def colectinfofromtable():
