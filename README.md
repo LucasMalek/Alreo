@@ -6,7 +6,7 @@ O **Alreo** é uma ferramenta voltada para o auxílio no aprendizado da álgebra
 
 A arquitetura do sistema conta com três módulos principais:
 
-- **Interface de usuário (Front-end)**: Elaborada em HTML com página única.
+- **Interface de usuário (Front-end)**: Elaborada em HTML, Jvascrip e CSS.
 - **Servidor (Back-end)**: Desenvolvido com o framework Flask em Python. O servidor implementa nativamente o SGBD SQLite3 em Python.
 - **[radb](https://github.com/junyang/radb)**: Um pacote utilizado para interpretar e traduzir consultas em álgebra relacional para SQL.
 
